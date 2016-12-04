@@ -28,7 +28,7 @@ class AlbumDetailViewController: UIViewController {
                 if let _ = error {
                     return
                 }
-                
+
                 self.pictures = pictures
                 self.collectionView.reloadData()
             }
